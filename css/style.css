@@ -1,0 +1,180 @@
+/* CSS Document */
+.hero {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  z-index: 0;
+  justify-content: center;
+}
+
+.hero img {
+  width: 40%;
+  height: auto;
+  margin-left: 2rem;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: black;
+  padding: 0 1rem;
+  max-width: 100%;
+}
+
+.now {
+	color: red;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero-buttons button {
+  margin: 0 0.1rem;
+}
+
+.btn-primary {
+  background-color: green;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: green;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: green;
+}
+
+.btn-secondary:hover {
+  background-color: green;
+  color: white;
+}
+
+.features {
+  background-color: #f8f9fa;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.feature-icon {
+  width: 100px;
+  height: 100px;
+  margin-right: 100px;
+}
+
+.feature-card {
+  text-align: left;
+  padding: 2rem;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  background-color: white;
+  margin: 2rem;
+  max-height: 80%;
+  overflow: hidden;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.feature-card a {
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+.redondeadonorelieve {
+  border-radius: 5px;
+  border: 1px solid #39c;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+}
+
+.form-send{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767.98px) {
+  .feature-card {
+    padding: 1.5rem;
+  }
+	
+  .hero-content {
+	left: 25%;
+  }
+  
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero-content {
+	left: 35%;
+  }
+	
+  .hero-content h1 {
+    font-size: 1.2rem; 
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-content {
+	left: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 2000px;
+	}
+}
+
+.list-group-1{
+  width: 300px;
+}
